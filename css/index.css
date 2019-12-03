@@ -178,6 +178,9 @@ nav .nav-items ul {
   font-size: 1.4rem;
   padding-top: 15px;
 }
+nav .nav-items ul li:hover {
+  color: lightgrey;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -267,13 +270,16 @@ footer {
   border-radius: 15px;
   transition-duration: 0.4s;
 }
-.home .walk .walk-text .btn:hover {
-  background-color: #81848E;
-  color: white;
-}
 .home .walk .walk-text .btn a {
   text-decoration: none;
   color: white;
+}
+.home .walk .walk-text .btn a:hover {
+  color: black;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
