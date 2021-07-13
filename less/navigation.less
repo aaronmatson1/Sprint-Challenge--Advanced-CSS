@@ -1,1 +1,35 @@
 // Navigation code here
+
+//--------ESCAPING VALUES ----------\\
+@phone: ~"(max-width: 500px)";
+@tablet: ~"(max-width: 800px)";
+@desktop: ~"(max-width: 1400px)";
+
+
+nav{
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  padding:25px 0;
+
+
+  .title{
+    text-align: center;
+  }
+
+  .nav-items ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+    padding-top: 15px;
+
+    @media @phone{
+
+    }
+
+    @media @desktop{
+
+    }
+    .nav-effect();
+  }
+}
